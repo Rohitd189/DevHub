@@ -8,7 +8,7 @@ import Login from "./components/auth/Login";
 import Signup from "./components/auth/Signup";
 
 // ADD THIS IMPORT
-import CreateRepository from "./components/repository/CreateRepository";
+
 
 // Auth Context
 import { useAuth } from "./authContext";
@@ -55,10 +55,7 @@ const ProjectRoutes = () => {
         },
 
         // ADD THIS ROUTE
-        {
-            path: "/create",
-            element: <CreateRepository />,
-        },
+        
     ]);
 
     return element;
